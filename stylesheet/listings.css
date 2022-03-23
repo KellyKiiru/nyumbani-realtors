@@ -159,3 +159,44 @@ each of the slides */
       margin-left: calc(-728px * 3);
   } */
 }
+
+
+
+.slide3 {
+  float: left;
+  height: 510px;
+  width: 728px;
+}
+
+.slide3:nth-child(1) {
+  background-image: url(../project-images/listings-images/threebedroomkitchen.jpg);
+  background-repeat: no-repeat;
+}
+
+.slide3:nth-child(2) {
+  background-image: url(../project-images/listings-images/threebedroomsitting.jpeg);
+  background-repeat: no-repeat;
+}
+
+.slide3:nth-child(3) {
+  background-image: url(../project-images/listings-images/threebedroombed.jpg);
+  background-repeat: no-repeat;
+}
+
+@keyframes slide3 {
+   
+  /* Calculate the margin-left for
+each of the slides */
+  20% {
+      margin-left: 0px;
+  }
+  40% {
+      margin-left: calc(-728px * 1);
+  }
+  60% {
+      margin-left: calc(-728px * 2);
+  }
+  /* 80% {
+      margin-left: calc(-728px * 3);
+  } */
+}
