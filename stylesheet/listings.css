@@ -61,6 +61,10 @@ nav ul li a.active {
   padding-bottom: 3%;
 }
 
+img{
+  width: 10px;
+  height: 250px;
+}
 .carousel-height{
   height: 5%;
   padding: 20px;
