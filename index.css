@@ -59,22 +59,36 @@ nav ul li a.active {
     border-radius: 5px;
 }
 
-#body {
+#header {
     /* background-image: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/brewster-mcleod-architects-1486154143.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh; */
     overflow: hidden;
-    position: relative;
+    position: relative; */
 
 }
 
 #bg-img {
-    opacity: 0.8;
+    /* opacity: 0.8; */
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
     height: auto;
+}
+
+.footer{
+    background-color: rgb(17, 99, 17);
+    position: relative;
+    top: 600px;
+}
+.footer-links{
+    /* display: flex;
+    justify-content: space-around; */
+    background-color: white;
+}
+.footer-links2{
+    display: flex;
+    justify-content: space-around;
 }
