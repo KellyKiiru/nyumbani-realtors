@@ -52,8 +52,8 @@
   margin: 0%;
 }
 /* #amenities-bg {
-  background-color: rgb(81, 95, 56);;
-} */
+  background-image: radial-gradient( circle farthest-corner at 50.7% 54%,  rgba(204,254,152,1) 0%, rgba(229,253,190,1) 92.4% );
+}  */
 .icons {
   display: flex;
   align-items: center;
@@ -73,6 +73,7 @@
   height: 400px;
   padding-left: 0%;
   padding-top:0px;
+  margin-left: 25px;
   
  /* perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
@@ -103,7 +104,7 @@
 
 
 .flip-card-front {
-  background-color: rgb(81, 95, 56);
+  background-image: radial-gradient( circle farthest-corner at 50.7% 54%,  rgba(204,254,152,1) 0%, rgba(229,253,190,1) 92.4% );
   color: black;
 }
 
@@ -113,13 +114,15 @@
   transform: rotateY(180deg);
 }
 
-img {
+/* img {
   align-items: center;
   padding: 0px;
   margin-top: 70px;
   margin-bottom: 0px;
+} */
+.household {
+  text-align: center;
 }
-
 .footer{
   background-color: rgb(17, 99, 17);
   position: relative;
