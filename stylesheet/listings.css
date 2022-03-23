@@ -1,94 +1,84 @@
-* {box-sizing:border-box}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
+body {
+  font-family: Helvetica, sans-serif;
+  padding: 5%;
   text-align: center;
+  font-size: 50;
 }
 
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+/* Styling the area of the slides */
+
+#slideshow , #slideshow2 , #slideshow3 , #slideshow4{
+  overflow: hidden;
+  height: 510px;
+  width: 728px;
+  /* margin: 0 auto; */
 }
 
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+/* Style each of the sides
+with a fixed width and height */
+
+.slide {
+  float: left;
+  height: 360px;
+  width: 728px;
 }
 
-.active, .dot:hover {
-  background-color: #717171;
+/* Add animation to the slides */
+
+.slide-wrapper {
+   
+  /* Calculate the total width on the
+basis of number of slides */
+  width: calc(728px * 4);
+   
+  /* Specify the animation with the
+duration and speed */
+  animation: slide 10s ease infinite;
 }
 
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+/* Set the background color
+of each of the slides */
+
+.slide:nth-child(1) {
+  background-image: url(../project-images/listings-images/studiokitchen.jpg);
+  background-repeat: no-repeat;
 }
 
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+.slide:nth-child(2) {
+  background-image: url(../project-images/listings-images/studiositting.jpeg);
+  background-repeat: no-repeat;
 }
 
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+
+.slide:nth-child(3) {
+  background-image: url(../project-images/listings-images/studiokitchen.jpg);
+  background-repeat: no-repeat;
+
+}
+
+/* .slide:nth-child(4) {
+  background-image: url(../project-images/listings-images/studiobedroom.jpg);
+  background-repeat: no-repeat;
+
+} */
+
+/* Define the animation
+for the slideshow */
+
+@keyframes slide {
+   
+  /* Calculate the margin-left for
+each of the slides */
+  20% {
+      margin-left: 0px;
+  }
+  40% {
+      margin-left: calc(-728px * 1);
+  }
+  60% {
+      margin-left: calc(-728px * 2);
+  }
+  /* 80% {
+      margin-left: calc(-728px * 3);
+  } */
 }
