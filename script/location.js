@@ -1,9 +1,5 @@
 $(document).ready(function() {
-    $(".btn btn-link").click(function() {
-        $("#contact-link").click(function() {
-            $("#mc-embedded-subscribe-form").show();
-            // $(".pproduct").toggle();
-    });
+    
 
 
 
