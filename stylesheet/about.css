@@ -116,6 +116,8 @@ nav{
 
 .about-text p{
     line-height: 2;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 #com{
@@ -133,11 +135,11 @@ nav{
     width: 1000px;
     height: 200px;
     margin: 0 auto;
-    margin-top: 200px;
+    margin-top: 150px;
   }
   
   .zoom:hover {
-    transform: scale(1.6);
+    transform: scale(1.5);
   }
 
   .zoom h1{
@@ -150,11 +152,12 @@ nav{
       color: #fff;
       text-align: center;
       font-size: 30px;
+      padding-bottom: 10px;
   }
 
   .quality{
       position: relative;
-      margin-top: 100px;
+      margin-top: 60px;
 
   }
 
@@ -170,7 +173,7 @@ nav{
     background: rgba(0, 0, 0, 0.795); 
     color: #f1f1f1; 
     width: 100%; 
-    padding: 65px; 
+    padding: 70px; 
     text-align: center;
 
   }
@@ -193,7 +196,7 @@ nav{
       border-color: green ;
       line-height: 2;
       padding-bottom: 20px;
-      border-width: 20px;
+      border-width: 15px;
       
       
   }
@@ -215,7 +218,7 @@ nav{
     border-color: green ;
     line-height: 2;
     padding-bottom: 20px;
-    border-width: 20px;
+    border-width: 15px;
     
     
 }
@@ -237,7 +240,7 @@ nav{
     border-color: green ;
     line-height: 2;
     padding-bottom: 20px;
-    border-width: 20px;
+    border-width: 15px;
     
     
 }
@@ -251,6 +254,46 @@ nav{
 .side3 p{
     font-size: 20px;
 }
+
+.values{
+    position: relative;
+    margin-top: 50px;
+}
+
+.values img{
+    height: 50vh;
+}
+
+
+
+ .values {
+     text-align: center;
+     text-transform: uppercase;
+     font-weight: bold;
+ }
+
+ #val{
+     font-size: 50px;
+     color: green;
+ }
+
+ .values-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .values-content h4{
+      padding-top: 10px;
+  }
+
+  
     
 
  
