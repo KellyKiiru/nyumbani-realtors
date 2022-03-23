@@ -48,9 +48,6 @@ nav ul li a.active {
     border-radius: 5px;
 }
 
- #mc-embedded-subscribe-form {
-     display: none;
- }
 
  .footer{
     background-color: rgb(17, 99, 17);
@@ -70,3 +67,22 @@ nav ul li a.active {
     position: relative;
     top: 50px;
 }
+
+.header {
+    text-align: center;
+}
+
+.btn {
+    background-color:rgb(17, 99, 17) ;
+    border: rgb(17, 99, 17);
+    color: white;
+}
+
+#mc-embedded-subscribe-form {
+
+}
+
+
+
+
+
