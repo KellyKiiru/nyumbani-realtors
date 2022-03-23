@@ -7,10 +7,10 @@ body {
 
 /* Styling the area of the slides */
 
-#slideshow , #slideshow2 , #slideshow3 , #slideshow4{
+#slideshow , #slideshow1 , #slideshow2 , #slideshow3{
   overflow: hidden;
   height: 510px;
-  width: 7px;
+  width: 728px;
   /* margin: 0 auto; */
 }
 
@@ -19,7 +19,7 @@ with a fixed width and height */
 
 .slide {
   float: left;
-  height: 360px;
+  height: 510px;
   width: 728px;
 }
 
@@ -45,21 +45,17 @@ of each of the slides */
 }
 
 .slide:nth-child(2) {
-  background-image: url(../project-images/listings-images/studiositting.jpeg);
+  background-image: url(../project-images/listings-images/studiokitchen.jpg);
   background-repeat: no-repeat;
 }
-
 
 .slide:nth-child(3) {
   background-image: url(../project-images/listings-images/studiokitchen.jpg);
   background-repeat: no-repeat;
-
 }
 
 /* .slide:nth-child(4) {
-  background-image: url(../project-images/listings-images/studiobedroom.jpg);
-  background-repeat: no-repeat;
-
+  background: yellow;
 } */
 
 /* Define the animation
