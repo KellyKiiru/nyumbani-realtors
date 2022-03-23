@@ -15,7 +15,7 @@ nav {
   padding: 10px 90px;
   box-sizing: border-box;
   background: transparent;
-  background: #BFD8D2;
+  background: rgba(104, 202, 104, 0.425);
 }
 
 nav ul {
@@ -37,14 +37,14 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background: #FEDCD2;
+  background: rgb(17, 99, 17);
   border-radius: 5px;
   color: #fff;
 
 }
 
 nav ul li a.active {
-  background: #FEDCD2;
+  background: rgb(17, 99, 17);
   color: #fff;
   border-radius: 5px;
 }
@@ -55,7 +55,7 @@ nav ul li a.active {
 }
 
 .amenities-header:hover {
-  color: #FEDCD2;
+  color: 	rgb(0, 158, 96);
   text-decoration: underline;
   font-family: 'Times New Roman', Times, serif;
 }
@@ -87,8 +87,7 @@ nav ul li a.active {
   padding-left: 0%;
   padding-top:0px;
   margin-left: 25px;
-  
- /* perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  /* perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
 /* This container is needed to position the front and back side */
@@ -117,7 +116,7 @@ nav ul li a.active {
 
 
 .flip-card-front {
-  background-color: #BFD8D2;
+ background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(57,181,51,1) 0%, rgba(35,91,32,1) 90% );;
   color: black;
 }
 
@@ -135,8 +134,12 @@ nav ul li a.active {
 .household {
   text-align: center;
 }
+
+ul {
+  list-style: none;
+}
 .footer{
-  background-color: #BFD8D2;
+  background-color: rgb(17, 99, 17);
   position: relative;
   top: 80px;
 }
