@@ -22,6 +22,7 @@ rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.css"
 rel="stylesheet"
 />
+<link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
   <!--nav bar-->
@@ -53,22 +54,25 @@ rel="stylesheet"
 
   <!--amenities-->
   <div class="container-fluid">
-    <div class="row">
+    <div class="row" id="amenities-bg">
        <div class="col-md-12"> 
          <div class="amenities-header">
            <h1>Our Amenities</h1>
            <h2>Common Amenities</h2>
-
+          </div>
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="flip-card">
                 <div class="flip-card-inner">
-                  <div class="flip-card-front">
-                    <img src="/project-images/amenities-images/swimming pool.png" alt="swimming pool icon" style="width:100px;height:100px;">
+                  <div class="flip-card-front icons" >
+                    <!-- <img src="/project-images/amenities-images/swimming pool.png" alt="swimming pool icon" style="width:100px;height:100px;">
+                     -->
+                     <i class='bx bx-swim' style="font-size: 80px; color: aliceblue;"></i>
+                    </div>
                     
-                  </div>
+                 
                   <div class="flip-card-back">
                     <img src="/project-images/amenities-images/swimming.jpeg" class="amenities" alt="swimming pool">
-                    
+                  
                   </div>
                 </div>
               </div>
@@ -76,9 +80,9 @@ rel="stylesheet"
 
                 <div class="flip-card">
                     <div class="flip-card-inner">
-                      <div class="flip-card-front">
-                        <img src="/project-images/amenities-images/gym.png" alt="gym icon" style="width:100px;height:100px;">
-                        
+                      <div class="flip-card-front icons">
+                        <!-- <img src="/project-images/amenities-images/gym.png" alt="gym icon" style="width:100px;height:100px;"> -->
+                        <i class='bx bx-dumbbell' style="font-size: 80px; color: aliceblue;"></i>
                       </div>
                       <div class="flip-card-back">
                        <img src="/project-images/amenities-images/gym.jpeg" class="amenities"  alt="gym">
@@ -89,9 +93,9 @@ rel="stylesheet"
 
                     <div class="flip-card">
                         <div class="flip-card-inner">
-                          <div class="flip-card-front">
-                            <img src="/project-images/amenities-images/kids.png" alt="kids playarea icon" style="width:100px;height:100px;">
-                            
+                          <div class="flip-card-front icons">
+                            <!-- <img src="/project-images/amenities-images/kids.png" alt="kids playarea icon" style="width:100px;height:100px;"> -->
+                            <i class='bx bx-football' style="font-size: 80px; color: aliceblue;"></i>
                           </div>
                           <div class="flip-card-back">
                             <img src="/project-images/amenities-images/kids playarea.jpg" class="amenities" alt="kids playarea">
@@ -102,9 +106,9 @@ rel="stylesheet"
 
                         <div class="flip-card">
                             <div class="flip-card-inner">
-                              <div class="flip-card-front">
-                                <img src="/project-images/amenities-images/security.png" alt="" style="width:100px;height:100px;">
-                                
+                              <div class="flip-card-front icons">
+                                <!-- <img src="/project-images/amenities-images/security.png" alt="" style="width:100px;height:100px;"> -->
+                                <i class='bx bxs-cctv' style="font-size: 80px; color: aliceblue;"></i>
                               </div>
                               <div class="flip-card-back">
                                <img src="/project-images/amenities-images/security camera.jpg" class="amenities" alt="security camera">
@@ -115,9 +119,9 @@ rel="stylesheet"
 
                             <div class="flip-card">
                                 <div class="flip-card-inner">
-                                  <div class="flip-card-front">
-                                    <img src="/project-images/amenities-images/stores.png" alt="" style="width:100px;height:100px;">
-                                    
+                                  <div class="flip-card-front icons">
+                                    <!-- <img src="/project-images/amenities-images/stores.png" alt="" style="width:100px;height:100px;"> -->
+                                    <i class='bx bxs-store' style="font-size: 80px; color: aliceblue;"></i>
                                   </div>
                                   <div class="flip-card-back">
                                     <img src="/project-images/amenities-images/stores.jpeg" class="amenities" alt="shopping store">
@@ -129,9 +133,9 @@ rel="stylesheet"
 
                                 <div class="flip-card">
                                     <div class="flip-card-inner">
-                                      <div class="flip-card-front">
-                                        <img src="/project-images/amenities-images/parking.jpeg" alt="" style="width:100px;height:100px;">
-                                        
+                                      <div class="flip-card-front icons">
+                                        <!-- <img src="/project-images/amenities-images/parking.jpeg" alt="" style="width:100px;height:100px;"> -->
+                                        <i class='bx bxs-parking' style="font-size: 80px; color: aliceblue;"></i>
                                       </div>
                                       <div class="flip-card-back">
                                        <img src="/project-images/amenities-images/parking lot.jpg" class="amenities" alt="basement parking">
@@ -141,11 +145,65 @@ rel="stylesheet"
                                
     
                                 </div>   
-    </div>
+                               <h2 class="amenities-header">Household Amenities</h2>
+                              <p class="amenities-p">
+                                <ol>
+                                  <li>Open plan lounge opening up to a spacious balcony with glass railing and sliding aluminium doors</li>
+                               <li>Futuristic style imported kitchen with mosaic backsplash, standard extractor hood and a breakfast bar</li>
+                                <li>Strip lights and spotlights illuminating the kitchen space beautifully</li>
+                               <li>Polished Italian style granite worktops</li>
+                               <li>European 85kg stainless steel, high security door</li>
+                               <li>Wooden teak textured ceramic tiles a mix of porcelain hexagonal tiles</li>
+                               <li>A spacious utility room with a provision for a washing machine</li>
+                               <li>150L solar water heating with booster</li>
+                               <li>Smoke detectors</li>
+                              <li>Italian style stainless stainless kitchen and bathroom fittings</li>
+                              <li>Bathrooms consist of a water closet, frameless glass shower screens, rain shower & a vanity</li>
+                              <li>White UV high quality wardrobes as standard in all bedrooms</li>
+                              </ol>
+                              </p>
   </div>
 </div>
 </div>
+<!-- Footer -->
+<footer class="footer page-footer font-small cyan darken-3">
 
+  <!-- Footer Elements -->
+  <div class="container">
 
+      <!-- Grid row-->
+      <div class="row footer-links">
+
+          <!-- Grid column -->
+          <div class="col-md-12 ">
+              <div class="mb-5 footer-links2 flex-center footericons">
+                  <a href="https://twitter.com/ThatsmeRyan"><i class='bx bxl-twitter' id="first"></i></a>
+
+                  <a href="https://github.com/KellyKiiru"><i class='bx bxl-github' id="middle"></i></a>
+  
+                  <a href="https://www.linkedin.com/in/kiiru-ryan-15a852231/"><i class='bx bxl-linkedin-square'
+                          id="last"></i></a>
+
+                 
+              </div>
+          </div>
+          <!-- Grid column -->
+
+      </div>
+      <!-- Grid row-->
+
+  </div>
+  <!-- Footer Elements -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="/" style="color: black;"> nyumbanirealtors.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+<!--box icons-->
+<script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
 </body>
 </html>

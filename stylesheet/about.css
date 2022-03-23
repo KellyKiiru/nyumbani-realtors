@@ -48,7 +48,7 @@ nav ul li a.active {
     background: rgba(0, 0, 0, 0.568); 
     color: #f1f1f1; 
     width: 100%; 
-    padding: 155px; 
+    padding: 100px; 
     text-align: center;
 
   }
@@ -143,10 +143,10 @@ nav ul li a.active {
     position: absolute;
     bottom: 0; 
     /* background: rgb(0, 0, 0); */
-    background: rgba(0, 0, 0, 0.795); 
+    background: rgba(0, 0, 0, 0.61); 
     color: #f1f1f1; 
     width: 100%; 
-    padding: 70px; 
+    padding: 10px; 
     text-align: center;
 
   }
@@ -160,16 +160,17 @@ nav ul li a.active {
     text-align: center;
     padding: 0;
     text-align: center;
+    
   }
   
   .side1{
       /* background: #fff; */
       color: #fff;
-      border-style: dotted;
+      border-style: solid;
       border-color: green ;
       line-height: 2;
       padding-bottom: 20px;
-      border-width: 15px;
+      border-width: 4px;
       
       
   }
@@ -187,11 +188,11 @@ nav ul li a.active {
   .side2{
     /* background: #fff; */
     color: #fff;
-    border-style: dotted;
+    border-style: solid;
     border-color: green ;
     line-height: 2;
     padding-bottom: 20px;
-    border-width: 15px;
+    border-width: 4px;
     
     
 }
@@ -209,11 +210,11 @@ nav ul li a.active {
 .side3{
     /* background: #fff; */
     color: #fff;
-    border-style: dotted;
+    border-style: solid;
     border-color: green ;
     line-height: 2;
     padding-bottom: 20px;
-    border-width: 15px;
+    border-width: 4px;
     
     
 }
@@ -248,6 +249,7 @@ nav ul li a.active {
  #val{
      font-size: 50px;
      color: green;
+     font-weight: bold;
  }
 
  .values-content{
@@ -265,6 +267,23 @@ nav ul li a.active {
   .values-content h4{
       padding-top: 10px;
   }
+
+  .values-content i:hover{
+      background-color: rgba(0, 128, 0, 0.425);
+  }
+
+  .values-content p{
+      display: none;
+  }
+
+  .fin img{
+      height: 70vh;
+      opacity: 0.7;
+  }
+
+
+
+
   .footer{
     background-color: rgb(17, 99, 17);
     position: relative;

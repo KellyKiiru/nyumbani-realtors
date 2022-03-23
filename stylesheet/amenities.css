@@ -1,3 +1,47 @@
+.nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  height: 100px;
+  padding: 10px 90px;
+  box-sizing: border-box;
+  background: transparent;
+  background: rgba(104, 202, 104, 0.425);
+}
+
+.nav ul {
+  list-style: none;
+  float: right;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav ul li a {
+  line-height: 80px;
+  color: #000;
+  padding: 12px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.nav ul li a:hover {
+  background: rgb(17, 99, 17);
+  border-radius: 5px;
+  color: #fff;
+
+}
+
+.nav ul li a.active {
+  background: rgb(17, 99, 17);
+  color: #fff;
+  border-radius: 5px;
+}
+
 .amenities-header{
   text-align: center;
 }
@@ -7,8 +51,15 @@
   height: 400px;
   margin: 0%;
 }
-
-
+/* #amenities-bg {
+  background-color: rgb(81, 95, 56);;
+} */
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20%;
+}
 
 .flip-card {
   background-color: transparent;
@@ -61,4 +112,29 @@ img {
   padding: 0px;
   margin-top: 70px;
   margin-bottom: 0px;
+}
+
+.amenities-p {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer{
+  background-color: rgb(17, 99, 17);
+  position: relative;
+  top: 600px;
+}
+
+.footer-links2{
+  display: flex;
+  justify-content: space-around;
+}
+
+.footericons a{
+  font-size: 50px;
+  /* border: solid black 1px; */
+  color: #000;
+  position: relative;
+  top: 50px;
 }
