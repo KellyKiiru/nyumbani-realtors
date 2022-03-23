@@ -18,16 +18,6 @@ nav {
     background: rgba(104, 202, 104, 0.425);
 }
 
-/* nav .logo{
-    padding: 0;
-    height: 200px;
-    float: left;
-    font-size: 30px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #fff;
-
-} */
 nav ul {
     list-style: none;
     float: right;
@@ -59,15 +49,6 @@ nav ul li a.active {
     border-radius: 5px;
 }
 
-#header {
-    /* background-image: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/brewster-mcleod-architects-1486154143.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-    position: relative; */
-
-}
 
 #bg-img {
     /* opacity: 0.8; */
@@ -81,7 +62,7 @@ nav ul li a.active {
 .footer{
     background-color: rgb(17, 99, 17);
     position: relative;
-    top: 600px;
+    top: 400px;
 }
 
 .footer-links2{
