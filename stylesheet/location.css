@@ -58,3 +58,7 @@ nav{
      color: #fff;
      border-radius: 5px;
  }
+
+ #mc-embedded-subscribe-form {
+     display: none;
+ }
