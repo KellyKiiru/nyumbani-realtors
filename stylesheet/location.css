@@ -92,6 +92,8 @@ nav ul li a.active {
     align-items: center;
 }
 
+
+
 .form-container {
     display: block;
     text-align: center;
@@ -118,6 +120,18 @@ nav ul li a.active {
   border: 2px solid rgb(236, 236, 236);
   color:rgb(17, 99, 17) ;
 }
+
+.card {
+    border: solid 1px rgb(17, 99, 17);
+    margin: 10px;
+    text-align: center;
+}
+
+.card-title {
+    color: rgb(17, 99, 17);
+    font-weight: bolder;
+}
+
 
 
 
