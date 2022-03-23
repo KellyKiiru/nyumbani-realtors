@@ -52,7 +52,7 @@ nav ul li a.active {
  .footer{
     background-color: rgb(17, 99, 17);
     position: relative;
-    top: 600px;
+    top: 3px;
 }
 
 .footer-links2{
@@ -70,17 +70,63 @@ nav ul li a.active {
 
 .header {
     text-align: center;
+    color: black;
+    font-weight: bold;
+    line-height: 40px;
 }
+
+
+.header p {
+    color:rgb(17, 99, 17);
+}
+
+.header h4 {
+    color: grey;
+}
+
 
 .btn {
     background-color:rgb(17, 99, 17) ;
     border: rgb(17, 99, 17);
     color: white;
+    align-items: center;
+}
+
+.form-container {
+    display: block;
+    text-align: center;
+
 }
 
 #mc-embedded-subscribe-form {
+    width: 50%;
+  padding: 20px;
+  margin: 10px auto;
+  justify-content: center;
+  border: solid 2px rgb(17, 99, 17) ;
+  display: inline-block;
 
 }
+
+#form-input {
+    border: none;
+  padding: 10px 5px;
+  outline: none;
+  font-size: 20px;
+  border-radius: 5px;
+  background: transparent;
+  border: 2px solid rgb(236, 236, 236);
+  color:rgb(17, 99, 17) ;
+}
+
+
+
+
+
+
+
+
+
 
 
 
