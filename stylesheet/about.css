@@ -72,7 +72,7 @@ nav{
     position: absolute;
     bottom: 0; 
     background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.377); 
+    background: rgba(0, 0, 0, 0.568); 
     color: #f1f1f1; 
     width: 100%; 
     padding: 161px; 
@@ -84,6 +84,48 @@ nav{
       font-size: 50px;
       text-transform: uppercase;
   }
+
+  #us{
+      color: green;
+      font-weight: bold;
+      font-size: 60px;
+  }
+
+  .about-text{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin-top: 0.5rem;
+    margin-left: 2.5rem;
+    padding-top: 70px;
+    text-align: center;
+    border-style: inset;
+    
+    
+    
+}
+
+.about-text h3{
+    font-size: 20px;
+    font-family: cursive;
+    list-style: 5;
+}
+
+.about-text p{
+    line-height: 2;
+}
+
+#com{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: green;
+    font-size: 40px;
+    
+}
+
   
 
  
