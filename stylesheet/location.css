@@ -70,9 +70,20 @@ nav ul li a.active {
 
 .header {
     text-align: center;
-    color: gray;
-
+    color: black;
+    font-weight: bold;
+    line-height: 40px;
 }
+
+
+.header p {
+    color:rgb(17, 99, 17);
+}
+
+.header h4 {
+    color: grey;
+}
+
 
 .btn {
     background-color:rgb(17, 99, 17) ;
