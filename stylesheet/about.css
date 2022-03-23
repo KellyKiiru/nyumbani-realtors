@@ -126,6 +126,33 @@ nav{
     
 }
 
+.zoom {
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.925);
+    transition: transform .2s; 
+    width: 1000px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 200px;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.6);
+  }
+
+  .zoom h1{
+      color: green;
+      text-align: center;
+    
+  }
+
+  .zoom p{
+      color: #fff;
+      text-align: center;
+      font-size: 30px;
+  }
+ 
+
   
 
  
