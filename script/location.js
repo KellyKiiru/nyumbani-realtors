@@ -4,7 +4,7 @@ $(document).ready(function() {
         $(".clickable").toggle();
       });
 
-    $(".clickable").click(function() {
+    $(".hide").click(function() {
         $("#mc-embedded-subscribe-form").toggle();
         $(".clickable").toggle();
       });
