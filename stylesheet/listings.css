@@ -58,5 +58,27 @@ nav ul li a.active {
 .heading1{
   text-align: center;
   padding-top: 5%;
-  padding-bottom: 8%;
+  padding-bottom: 3%;
+}
+
+.carousel-height{
+  height: 5%;
+  padding: 20px;
+}
+
+.footer{
+  background-color: rgb(17, 99, 17);
+  position: relative;
+  /* top: 600px; */
+}
+.footer-links2{
+  display: flex;
+  justify-content: space-around;
+}
+.footericons a{
+  font-size: 50px;
+  /* border: solid black 1px; */
+  color: #000;
+  position: relative;
+  top: 50px;
 }
