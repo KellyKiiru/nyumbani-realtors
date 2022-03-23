@@ -83,12 +83,16 @@ nav ul li a.active {
     position: relative;
     top: 600px;
 }
-.footer-links{
-    /* display: flex;
-    justify-content: space-around; */
-    background-color: white;
-}
+
 .footer-links2{
     display: flex;
     justify-content: space-around;
+}
+
+.footericons a{
+    font-size: 50px;
+    /* border: solid black 1px; */
+    color: #000;
+    position: relative;
+    top: 50px;
 }
