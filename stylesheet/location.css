@@ -70,6 +70,8 @@ nav ul li a.active {
 
 .header {
     text-align: center;
+    color: gray;
+
 }
 
 .btn {
@@ -77,6 +79,7 @@ nav ul li a.active {
     border: rgb(17, 99, 17);
     color: white;
 }
+
 
 
 
