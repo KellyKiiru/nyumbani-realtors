@@ -96,3 +96,9 @@ nav ul li a.active {
     position: relative;
     top: 50px;
 }
+.landingpagetext{
+    display: flex;
+    background-color: #f1f1f1;
+    opacity: .1;
+}
+
