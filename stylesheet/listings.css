@@ -78,3 +78,84 @@ each of the slides */
       margin-left: calc(-728px * 3);
   } */
 }
+
+
+.slide1 {
+  float: left;
+  height: 510px;
+  width: 728px;
+}
+
+.slide1:nth-child(1) {
+  background-image: url(../project-images/listings-images/onebedroomkitchen.jpg);
+  background-repeat: no-repeat;
+}
+
+.slide1:nth-child(2) {
+  background-image: url(../project-images/listings-images/onebedroomsitting.jpg);
+  background-repeat: no-repeat;
+}
+
+.slide1:nth-child(3) {
+  background-image: url(../project-images/listings-images/onebedroombed.jpg);
+  background-repeat: no-repeat;
+}
+
+@keyframes slide1 {
+   
+  /* Calculate the margin-left for
+each of the slides */
+  20% {
+      margin-left: 0px;
+  }
+  40% {
+      margin-left: calc(-728px * 1);
+  }
+  60% {
+      margin-left: calc(-728px * 2);
+  }
+  /* 80% {
+      margin-left: calc(-728px * 3);
+  } */
+}
+
+
+
+.slide1 {
+  float: left;
+  height: 510px;
+  width: 728px;
+}
+
+.slide1:nth-child(1) {
+  background-image: url(../project-images/listings-images/onebedroomkitchen.jpg);
+  background-repeat: no-repeat;
+}
+
+.slide1:nth-child(2) {
+  background-image: url(../project-images/listings-images/onebedroomsitting.jpg);
+  background-repeat: no-repeat;
+}
+
+.slide1:nth-child(3) {
+  background-image: url(../project-images/listings-images/onebedroombed.jpg);
+  background-repeat: no-repeat;
+}
+
+@keyframes slide1 {
+   
+  /* Calculate the margin-left for
+each of the slides */
+  20% {
+      margin-left: 0px;
+  }
+  40% {
+      margin-left: calc(-728px * 1);
+  }
+  60% {
+      margin-left: calc(-728px * 2);
+  }
+  /* 80% {
+      margin-left: calc(-728px * 3);
+  } */
+}
