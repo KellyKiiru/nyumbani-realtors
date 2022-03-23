@@ -51,3 +51,22 @@ nav ul li a.active {
  #mc-embedded-subscribe-form {
      display: none;
  }
+
+ .footer{
+    background-color: rgb(17, 99, 17);
+    position: relative;
+    top: 600px;
+}
+
+.footer-links2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footericons a{
+    font-size: 50px;
+    /* border: solid black 1px; */
+    color: #000;
+    position: relative;
+    top: 50px;
+}
