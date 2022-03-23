@@ -15,7 +15,7 @@ nav {
   padding: 10px 90px;
   box-sizing: border-box;
   background: transparent;
-  background: rgba(104, 202, 104, 0.425);
+  background: #BFD8D2;
 }
 
 nav ul {
@@ -37,14 +37,14 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background: rgb(17, 99, 17);
+  background: #FEDCD2;
   border-radius: 5px;
   color: #fff;
 
 }
 
 nav ul li a.active {
-  background: rgb(17, 99, 17);
+  background: #FEDCD2;
   color: #fff;
   border-radius: 5px;
 }
@@ -55,7 +55,7 @@ nav ul li a.active {
 }
 
 .amenities-header:hover {
-  color: rgb(17, 99, 17);
+  color: #FEDCD2;
   text-decoration: underline;
   font-family: 'Times New Roman', Times, serif;
 }
@@ -65,9 +65,8 @@ nav ul li a.active {
   height: 400px;
   margin: 0%;
 }
-/* #amenities-bg {
-  background-image: radial-gradient( circle farthest-corner at 50.7% 54%,  rgba(204,254,152,1) 0%, rgba(229,253,190,1) 92.4% );
-}  */
+
+
 .icons {
   display: flex;
   align-items: center;
@@ -118,12 +117,11 @@ nav ul li a.active {
 
 
 .flip-card-front {
-  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(14,174,87,1) 0%, rgba(12,116,117,1) 90% );
+  background-color: #BFD8D2;
   color: black;
 }
 
 .flip-card-back {
-  /* background-color:turquoise; */
   color: white;
   transform: rotateY(180deg);
 }
@@ -138,7 +136,7 @@ nav ul li a.active {
   text-align: center;
 }
 .footer{
-  background-color: rgb(17, 99, 17);
+  background-color: #BFD8D2;
   position: relative;
   top: 80px;
 }
