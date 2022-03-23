@@ -58,15 +58,29 @@ nav ul li a.active {
 .heading1{
   text-align: center;
   padding-top: 5%;
-  padding-bottom: 3%;
+  padding-bottom: 2%;
 }
 
 img{
   width: 10px;
-  height: 250px;
+  height: 300px;
+  /* margin-left: 10%; */
+}
+.card-title{
+  font-weight: bold;
+}
+.card{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+}
+
+.caro{
+  height: 80vh;
+  width: 100%;
 }
 .carousel-height{
-  height: 5%;
+  height: 15%;
   padding: 20px;
 }
 
