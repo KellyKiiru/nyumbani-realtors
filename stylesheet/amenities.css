@@ -63,6 +63,8 @@
 .amenities2 {
   display: flex;
   flex-direction: column;
+  color: white;
+  font-size: 15px;
 
 }
 .flip-card {
@@ -118,9 +120,6 @@ img {
   margin-bottom: 0px;
 }
 
-.amenities-p {
- 
-}
 .footer{
   background-color: rgb(17, 99, 17);
   position: relative;
