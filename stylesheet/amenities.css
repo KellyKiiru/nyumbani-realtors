@@ -60,7 +60,11 @@
   justify-content: center;
   padding-bottom: 20%;
 }
+.amenities2 {
+  display: flex;
+  flex-direction: column;
 
+}
 .flip-card {
   background-color: transparent;
   width: 400px;
@@ -115,10 +119,7 @@ img {
 }
 
 .amenities-p {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ 
 }
 .footer{
   background-color: rgb(17, 99, 17);
