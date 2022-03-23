@@ -1,8 +1,10 @@
 body {
   font-family: Helvetica, sans-serif;
-  padding: 5%;
-  text-align: center;
-  font-size: 50;
+  padding: 0;
+  margin: 0;
+  /* text-align: center; */
+  /* font-size: 50; */
+  box-sizing: border-box;
 }
 
 nav {
@@ -15,15 +17,15 @@ nav {
   padding: 10px 90px;
   box-sizing: border-box;
   background: transparent;
-  background: rgba(104, 202, 104, 0.425);
+  /* background: rgba(104, 202, 104, 0.425); */
 }
 
 nav ul {
   list-style: none;
-  float: right;
+  /* /* float: right;
   margin: 0;
-  padding: 0;
-  display: flex;
+  padding: 0; */
+  display: flex; 
 }
 
 nav ul li a {
@@ -51,7 +53,7 @@ nav ul li a.active {
 
 /* Styling the area of the slides */
 .stud{
-  padding-top: 5%;
+  padding-top: 20%;
   
 }
 #slideshow , #slideshow1 , #slideshow2 , #slideshow3{
@@ -251,7 +253,7 @@ each of the slides */
 .footer{
   background-color: rgb(17, 99, 17);
   position: relative;
-  top: 600px;
+  top: 650px;
 }
 
 .footer-links2{
@@ -264,5 +266,5 @@ each of the slides */
   /* border: solid black 1px; */
   color: #000;
   position: relative;
-  top: 50px;
+  top: 18px;
 }
