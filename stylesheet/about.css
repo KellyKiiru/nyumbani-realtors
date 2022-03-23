@@ -48,7 +48,7 @@ nav ul li a.active {
     background: rgba(0, 0, 0, 0.568); 
     color: #f1f1f1; 
     width: 100%; 
-    padding: 80px; 
+    padding: 100px; 
     text-align: center;
 
   }
@@ -146,7 +146,7 @@ nav ul li a.active {
     background: rgba(0, 0, 0, 0.61); 
     color: #f1f1f1; 
     width: 100%; 
-    padding: 50px; 
+    padding: 80px; 
     text-align: center;
 
   }
@@ -281,19 +281,35 @@ nav ul li a.active {
       height: 70vh;
       opacity: 0.7;
   }
-  
-  /* .fin{
-      position: relative;
-      top: 250px;
 
-  } */
+  .fin-content a:link, a:visited {
+    background-color: rgb(70, 236, 70);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .fin .fin-content a:hover, a:active {
+    background-color: green;
+  }
+
+   .fin .fin-content {
+      margin-top: 30px;
+      text-align: center;
+  }
+   
+
 
 
 
   .footer{
     background-color: rgb(17, 99, 17);
     position: relative;
-    top: 600px;
+    top:20px;
 }
 .footer-links2{
     display: flex;
