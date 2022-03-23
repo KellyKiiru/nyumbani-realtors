@@ -1,5 +1,13 @@
 $(document).ready(function() {
-    
+    $(".clickable").click(function() {
+        $("#mc-embedded-subscribe-form").toggle();
+        $(".clickable").toggle();
+      });
+
+    $(".clickable").click(function() {
+        $("#mc-embedded-subscribe-form").toggle();
+        $(".clickable").toggle();
+      });
 
 
 
