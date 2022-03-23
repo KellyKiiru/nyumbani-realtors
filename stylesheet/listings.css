@@ -121,28 +121,28 @@ each of the slides */
 
 
 
-.slide1 {
+.slide2 {
   float: left;
   height: 510px;
   width: 728px;
 }
 
-.slide1:nth-child(1) {
-  background-image: url(../project-images/listings-images/onebedroomkitchen.jpg);
+.slide2:nth-child(1) {
+  background-image: url(../project-images/listings-images/twobedroomkitchen.jpg);
   background-repeat: no-repeat;
 }
 
-.slide1:nth-child(2) {
-  background-image: url(../project-images/listings-images/onebedroomsitting.jpg);
+.slide2:nth-child(2) {
+  background-image: url(../project-images/listings-images/twobedroomsitting.jpg);
   background-repeat: no-repeat;
 }
 
-.slide1:nth-child(3) {
-  background-image: url(../project-images/listings-images/onebedroombed.jpg);
+.slide2:nth-child(3) {
+  background-image: url(../project-images/listings-images/twobedroombed.jpg);
   background-repeat: no-repeat;
 }
 
-@keyframes slide1 {
+@keyframes slide2 {
    
   /* Calculate the margin-left for
 each of the slides */
