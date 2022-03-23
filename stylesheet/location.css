@@ -107,7 +107,8 @@ nav ul li a.active {
   justify-content: center;
   border: solid 2px rgb(17, 99, 17) ;
   display: inline-block;
-  box-shadow: 10px 20px 5px;
+  box-shadow: 5px 5px 5px;
+  display: none;
 
 }
 
@@ -123,10 +124,10 @@ nav ul li a.active {
 }
 
 .card {
-    border: solid 1px rgb(133, 187, 133);
+    /* border: solid 1px rgb(133, 187, 133); */
     margin: 10px;
     text-align: center;
-    box-shadow: 10px 10px 5px;
+    box-shadow: 5px 10px 5px;
 }
 
 .card-title {
