@@ -71,14 +71,15 @@ nav ul li a.active {
 .header {
     text-align: center;
     color: black;
-    font-weight: bold;
     line-height: 40px;
+    text-decoration: underline;
 }
 
 
-.header p {
-    color:rgb(17, 99, 17);
-}
+p {
+    color: black;
+    text-align: center;
+} 
 
 .header h4 {
     color: grey;
