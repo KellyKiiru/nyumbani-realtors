@@ -15,7 +15,7 @@ nav {
     padding: 10px 90px;
     box-sizing: border-box;
     background: transparent;
-    background: rgba(104, 202, 104, 0.425);
+    background: #bfd8d2;
 }
 nav ul {
     list-style: none;
@@ -135,9 +135,6 @@ p {
     color: rgb(17, 99, 17);
     font-weight: bolder;
 }
-
-
-
 
 
 
