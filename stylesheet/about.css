@@ -260,20 +260,28 @@ nav ul li a.active {
     align-items: center;
     text-align: center;
     padding-top: 10px;
-    text-align: center;
+    
     cursor: pointer;
   }
 
   .values-content h4{
       padding-top: 10px;
+      display: none;
   }
 
   .values-content i:hover{
-      background-color: rgba(0, 128, 0, 0.425);
+      background-color: rgba(0, 128, 0, 0.884);
   }
 
   .values-content p{
       display: none;
+      text-transform: lowercase; 
+      font-weight: 200;
+      line-height: 2;
+  }
+
+  #cap{
+      text-transform: uppercase;
   }
 
   .fin img{
