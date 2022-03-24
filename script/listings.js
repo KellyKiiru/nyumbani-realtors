@@ -1,25 +1,42 @@
-// back end logic
-const house = {
+// // back end logic
 
-  studio: {
-    rent: 50000,
-    buy: 1500000,
-  },
 
-  onebed: {
-    rent: 100000,
-    buy: 3500000,
-  },
+// let apartmentPrices = [
+//   rent = {
+//     studio: 50000,
+//     onebed: 100000,
+//     threebed: 200000,
+//     fourbed: 300000,
+//   },
 
-  threebed: {
-    rent:200000,
-    buy:6000000,
-  },
+//   buy = {
+//     studio: 1500000,
+//     onebed: 3500000,
+//     threebed: 6000000,
+//     fourbed: 9000000,
+//   },
+// ]
 
-  fourbed:{
-    rent:300000,
-    buy:9000000,
-  },
 
-}
 
+
+// console.log(apartmentPrices[1].fourbed)
+
+
+// front-end logic
+
+// $(document).ready(function () {
+//   $("form#get_quotation_form").submit(function (event) {
+//     event.preventDefault();
+
+//     let location = $("input#locations").val();
+//     let category = $("input#category").val();
+//     let lease = $("input#lease").val();
+
+  
+//     if (location.val() == "mombasa" && category.val() == "studio" && lease.val() == "rent") {
+
+//     }
+
+//   });
+// }); 

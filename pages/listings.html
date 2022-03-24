@@ -129,7 +129,7 @@
     <div class="row">
       <!-- Gallery-section start -->
       <h1 class="heading1">GALLERY</h1>
-      <div class="col-md-7">
+      <!-- <div class="col-md-7"> -->
         <!-- carousel-start -->
         <div
           id="carouselExampleControls"
@@ -161,7 +161,7 @@
                 alt="Exotic Fruits"
               />
             </div>
-            <div class="carousel-item">
+            <!-- <div class="carousel-item">
               <img
                 class="caro"
                 src="../project-images/listings-images/onebedroombed.jpg"
@@ -194,7 +194,7 @@
                 alt="Exotic Fruits"
               />
             </div>
-          </div>
+          </div> -->
           <button
             class="carousel-control-prev"
             type="button"
@@ -215,31 +215,37 @@
           </button>
         </div>
         <!-- carousel-end -->
-      </div>
-      <div class="col-md-5">
-        <!-- form start -->
-        <form id="orders_form">
+      <!-- </div> -->
+     
+        
+        <!-- <form id="get_quotation_form">
           <label for="locations">Choose a Location:</label>
-          <select class="form-select" id="location" required>
+          <select class="form-select" id="locations" required>
             <option value="mombasa">Mombasa Road</option>
             <option value="thika">Thika Road</option>
             <option value="waiyaki">Waiyaki Way</option>
           </select>
-          <label for="Category">select an apartment Category:</label>
+
+          <label for="category">What are you looking for:</label>
           <select class="form-select" id="category" required>
             <option value="studio">Studio Apartment</option>
-            <option value="onebed">One Bedroom</option>
-            <option value="threebed">Three Bedroom</option>
-            <option value="fourbed">Four Bedroom</option>
+            <option value="onebed">One bedroom Apartment</option>
+            <option value="threebed">Three Bedroom Apartment</option>
+            <option value="fourbed">Four Bedroom Apartment</option>
           </select>
 
-          <button class="btn" id="rent">RENT</button>
+          <label for="lease">Rent or Buy:</label>
+          <select class="form-select" id="lease" required>
+            <option value="rent">RENT</option>
+            <option value="buy">BUY</option>
+          </select>
 
-          <button class="btn" id="buy">BUY</button>
-
-        </form>
-        <!-- form end -->
-      </div>
+          <button type="submit" id="submit-btn" class="btn btn-danger">
+            SUBMIT
+          </button>
+        </form> -->
+        
+      
       <!-- Gallery-section-End -->
     </div>
 
@@ -280,5 +286,6 @@
       type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.js"
     ></script>
+  <script src="../script/listings.js"></script>
   </body>
 </html>
