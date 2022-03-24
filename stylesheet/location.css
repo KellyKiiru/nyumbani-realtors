@@ -36,21 +36,21 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background: rgb(17, 99, 17);
+    background: #fedcd2;
     border-radius: 5px;
     color: #fff;
 
 }
 
 nav ul li a.active {
-    background: rgb(17, 99, 17);
+    background: #fedcd2;
     color: #fff;
     border-radius: 5px;
 }
 
 
  .footer{
-    background-color: rgb(17, 99, 17);
+    background-color: #bfd8d2;
     position: relative;
     top: 3px;
 }
@@ -71,14 +71,15 @@ nav ul li a.active {
 .header {
     text-align: center;
     color: black;
-    font-weight: bold;
     line-height: 40px;
+    text-decoration: underline;
 }
 
 
-.header p {
-    color:rgb(17, 99, 17);
-}
+p {
+    color: black;
+    text-align: center;
+} 
 
 .header h4 {
     color: grey;
@@ -109,7 +110,7 @@ nav ul li a.active {
   display: inline-block;
   box-shadow: 5px 5px 5px;
   display: none;
-
+  background-color: transparent;
 }
 
 #form-input {

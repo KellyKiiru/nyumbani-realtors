@@ -24,5 +24,9 @@ function formSubmit() {
     let email = document. getElementById("mc-Email").value;
     let message = document.getElementById("mc-MESSAGE").value;
   
-    alert ("Hello" + "," + name + "." + "We have received your message. An agent will reach out to you as soon as possible.");
+    alert ("Hello" + "," + name + "." + "Thank you for contacting us. An agent will reach out soon.");
+
+    document.getElementById("username").innerHTML=name;
+    // document.getElementById("usermail").innerHTML=email;
+    // document.getElementById("usermessage").innerHTML=message;
 }
