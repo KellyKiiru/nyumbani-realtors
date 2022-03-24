@@ -1,6 +1,6 @@
 # NYUMBANI REALTORS 
 
-![project's landing page](./project-images/Screenshot%20from%202022-03-24%2007-09-59.png)
+![project's landing page](./project-images/readme-image.png)
 
 ##### By Kelly Kiiru  Sylvia Chepkoech  Agness Mbiti  Elsie Akoth  Lydiah Wachira  Sarah Kamunya  Christine Nkatha 
 
