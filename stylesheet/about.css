@@ -72,7 +72,7 @@ nav ul li a.active {
   }
 
   #us{
-      color: #fedcd2;
+      color: #000;
       font-weight: bold;
       font-size: 60px;
   }
@@ -109,7 +109,7 @@ nav ul li a.active {
 #com{
     text-transform: uppercase;
     font-weight: bold;
-    color: #fedcd2;
+    color: #000;
     font-size: 40px;
     
 }
@@ -261,7 +261,7 @@ nav ul li a.active {
 
  #val{
      font-size: 50px;
-     color: #fedcd2;
+     color: #000;
      font-weight: bold;
  }
 
@@ -305,7 +305,7 @@ nav ul li a.active {
 
   .fin-content a:link, a:visited {
     background-color: #fedcd2;
-    color: white;
+    color: #000;
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
