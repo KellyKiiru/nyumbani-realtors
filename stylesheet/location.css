@@ -110,7 +110,7 @@ p {
   display: inline-block;
   box-shadow: 5px 5px 5px;
   display: none;
-
+  background-color: transparent;
 }
 
 #form-input {
