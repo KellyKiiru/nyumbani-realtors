@@ -36,21 +36,21 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background: rgb(17, 99, 17);
+    background: #fedcd2;
     border-radius: 5px;
     color: #fff;
 
 }
 
 nav ul li a.active {
-    background: rgb(17, 99, 17);
+    background: #fedcd2;
     color: #fff;
     border-radius: 5px;
 }
 
 
  .footer{
-    background-color: rgb(17, 99, 17);
+    background-color: #bfd8d2;
     position: relative;
     top: 3px;
 }
