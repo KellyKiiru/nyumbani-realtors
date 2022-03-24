@@ -14,7 +14,7 @@ nav {
   padding: 10px 90px;
   box-sizing: border-box;
   background: transparent;
-  background: rgba(104, 202, 104, 0.425);
+  background: #bfd8d2;
 }
 nav ul {
   list-style: none;
@@ -33,12 +33,13 @@ nav ul li a {
   font-weight: bold;
 }
 nav ul li a:hover {
-  background: rgb(17, 99, 17);
+  background: #fedcd2;
   border-radius: 5px;
   color: #fff;
 }
+
 nav ul li a.active {
-  background: rgb(17, 99, 17);
+  background: #fedcd2;
   color: #fff;
   border-radius: 5px;
 }
@@ -46,16 +47,6 @@ nav ul li a.active {
 body{
   font-family: Arial, Helvetica, sans-serif;
 }
-
-
-
-
-
-
-
-
-
-
 
 .heading1{
   text-align: center;
@@ -79,7 +70,7 @@ img{
 }
 
 .caro{
-  height: 90vh;
+  height: 77vh;
   width: 100%;
 }
 .carousel-height{
@@ -88,7 +79,7 @@ img{
 }
 
 .footer{
-  background-color: rgb(17, 99, 17);
+  background-color: #bfd8d2;
   position: relative;
   /* top: 600px; */
 }
