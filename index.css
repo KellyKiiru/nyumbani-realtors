@@ -4,7 +4,9 @@ body {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+/* .heading:hover{
+    color: #df744a;
+} */
 nav {
     position: absolute;
     top: 0;
@@ -15,9 +17,8 @@ nav {
     padding: 10px 90px;
     box-sizing: border-box;
     background: transparent;
-    background: rgba(104, 202, 104, 0.425);
+    background: #bfd8d2;
 }
-
 nav ul {
     list-style: none;
     float: right;
@@ -37,14 +38,14 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background: rgb(17, 99, 17);
+    background: #fedcd2;
     border-radius: 5px;
     color: #fff;
 
 }
 
 nav ul li a.active {
-    background: rgb(17, 99, 17);
+    background: #fedcd2;
     color: #fff;
     border-radius: 5px;
 }
@@ -56,11 +57,11 @@ nav ul li a.active {
     left: 0;
     top: 0;
     width: 100%;
-    height: auto;
+    height: fit-content;
 }
 
 .footer{
-    background-color: rgb(17, 99, 17);
+    background-color: #bfd8d2;
     position: relative;
     top: 400px;
 }
